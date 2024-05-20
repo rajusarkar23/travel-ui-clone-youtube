@@ -7,7 +7,7 @@ type ButtonProps = {
     variant: string;
     full?: boolean;
 }
-
+//Creating a re-usable button component and giving it props as ButtonProps which is declared above
 const Button = ({type, title, icon, variant, full}: ButtonProps) => {
   return (
     <button 
